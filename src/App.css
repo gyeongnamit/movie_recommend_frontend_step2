@@ -1,0 +1,41 @@
+.App {
+  text-align: center; /* 화면의 모든 텍스트를 중앙 정렬 */
+}
+
+h1 {
+  font-size: 2rem; /* 제목(h1) 글자 크기를 2rem(32px)로 설정 */
+  margin-bottom: 1rem; /* 제목 아래쪽 여백을 1rem(16px)으로 설정 */
+}
+
+.movie-grid {
+  display: flex; /* 영화 카드들을 가로로 나열 */
+  flex-wrap: wrap; /* 화면 크기에 따라 자동으로 줄 바꿈 */
+  gap: 1rem; /* 카드 사이 간격을 1rem(16px)으로 설정 */
+  justify-content: center; /* 중앙 정렬로 카드 배치 */
+}
+
+.movie-card {
+  width: 150px; /* 각 영화 카드의 너비를 150px로 설정 */
+  border: 1px solid #ccc; /* 카드 테두리를 회색(#ccc)으로 설정 */
+  border-radius: 8px; /* 카드 모서리를 둥글게(8px) 만듦 */
+  padding: 10px; /* 카드 내부 여백을 10px로 설정 */
+  text-align: center; /* 카드 내부 텍스트를 중앙 정렬 */
+}
+
+.poster {
+  width: 100%; /* 이미지(포스터)를 카드 너비에 맞춤 */
+  height: auto; /* 이미지 비율을 유지하면서 크기 조절 */
+  border-radius: 4px; /* 이미지 모서리를 둥글게(4px) 만듦 */
+}
+
+.movie-info {
+  display: flex; /* 영화 정보 섹션을 가로 정렬 */
+  justify-content: space-between; /* 항목들을 양쪽 끝에 배치 */
+  align-items: center; /* 항목들을 수직 중앙 정렬 */
+  margin-top: 8px; /* 상단 여백을 8px로 설정 */
+}
+
+.heart-icon {
+  width: 24px; /* 하트 아이콘의 너비를 24px로 설정 */
+  cursor: pointer; /* 마우스를 올리면 클릭 가능하게 커서 모양 변경 */
+}
